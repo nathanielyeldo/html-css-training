@@ -1,0 +1,30 @@
+body {
+  background-color: lightblue;
+}
+#firsth {
+  color: white;
+  text-align: center;
+}
+.secondh {
+  color: red;
+  text-align: center;
+}
+.ordered {
+  border-style: solid;
+  border-color: rgb(215, 83, 83);
+  background-color: rgb(215, 83, 83);
+  border-width: 10px;
+}
+.unordered {
+  border-style: solid;
+  border-color: rgb(75, 75, 230);
+  background-color: rgb(186, 186, 236);
+  border-width: 5px;
+}
+
+#ul {
+  background-color: rgb(75, 75, 230);
+}
+li {
+  background-color: rgb(234, 174, 174);
+}

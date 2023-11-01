@@ -1,0 +1,139 @@
+body{
+    background-color: rgb(148, 179, 155);
+}
+.name{
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+
+.navbar{
+    margin-left: 10%;
+    margin-top: -40px;
+    position: fixed;
+    background-color: rgb(239, 244, 214);
+    transition: background-color 0.3s;
+    height: 30px;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 15px;
+    margin-right: 10%;
+
+}
+.navbar a{
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    /* border-radius: 10%; */
+    margin-right: 50px;
+    
+}
+.navbar a:hover {
+        color: rgb(252, 0, 0);
+  }
+.container{
+display: flex;
+}
+.leftcontainer{
+flex: 1;
+margin-left: 50px;
+margin-top: 50px;
+}
+.rightcontainer{
+    flex: 1;
+    margin-top: 50px;
+    text-align: justify;
+    margin-right: 50px;
+    padding-right: 70px;
+}
+#skills{
+    margin-left: 100px;
+}
+/* #skills li{
+    /* padding-bottom: 20px; */ */
+#skillsright {
+    margin-top: 150px;
+
+}
+
+#academics{
+    margin-left: 100px;
+}
+#academics h1{
+    margin-left: 90px;
+}
+#table1{
+    border-style: none;
+    border-radius: 5%;
+    margin-right: 150px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: rgb(231, 242, 192);
+}
+#table2{
+    border-style: none;
+    border-radius: 5%;
+    margin-right: 150px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: rgb(231, 242, 192);
+
+}
+#table3{
+    border-style: none;
+    border-radius: 5%;
+    margin-right: 150px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: rgb(231, 242, 192);
+
+}
+.imageacademics{
+    margin-top: 250px;
+    margin-bottom: 150px;
+}
+.imageextra{
+    margin-left: 50px;
+    margin-top: 125px;
+    margin-right: 60px;
+}
+#projects{
+    text-align: justify;
+    padding-right: 30px;
+    padding-left: 50px;
+}
+.imageprojects{
+    margin-top: 180px;
+    margin-left: 30px;
+
+}
+#experience{
+    margin-top: 80px;
+}
+#experience h3, h4{
+    margin-bottom: -10px;
+}
+#experience section:hover {
+    background-color: rgb(245, 225, 181); 
+    padding-left: 20px;
+    margin-right: 150px;
+}
+
+#experience{
+    padding-left: 30px;
+}
+.imageexperion{
+    margin-top: 120px;
+    margin-left: 300px;
+}
+.aboutme{
+    background-color: rgb(211, 243, 230);
+  }
+  #contact{
+    text-align: center;
+  }
